@@ -24,6 +24,12 @@ public class AppTest {
 		String a = "a";
 		assertThat(a).isEqualToIgnoringCase("A");
 	}
+	
+	@Test
+	public void assertj_should_works2() {
+		String a = "b";
+		assertThat(a).isEqualToIgnoringCase("B");
+	}
 
 	@Test
 	public void mockito_should_works() {
